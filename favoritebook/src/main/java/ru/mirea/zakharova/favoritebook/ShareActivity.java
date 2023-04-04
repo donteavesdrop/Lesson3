@@ -28,7 +28,7 @@ public class ShareActivity extends AppCompatActivity {
 
     }
 
-    public void enter(View view) {
+    public void enterButton(View view) {
         String text ="Ваша любимая книга: " + textBook.getText();
         Intent data = new Intent();
         data.putExtra(MainActivity.USER_MESSAGE, text);
